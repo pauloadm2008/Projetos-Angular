@@ -1,0 +1,23 @@
+<p>number: {{ number }}</p>
+<div>
+  <label>event binding</label>
+  <input type="number" (input)="onUpdateValue($event)" />
+  <label>two way databinding</label>
+  <input type="text" [(ngModel)]="number" />
+</div>
+
+<div>
+  <label (click)="simple()">simple binding cpf</label>
+  <label (mousemove)="mudar()">documento de mudanca</label>
+
+</div>
+
+<div *ngIf="number>18">
+  pode beber
+
+</div>
+<div *ngFor="let fruta of cestaDeFruta">
+  {{fruta}}
+
+</div>
+

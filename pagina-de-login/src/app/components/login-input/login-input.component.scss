@@ -1,0 +1,26 @@
+.login_input {
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 8px;
+  border: unset;
+  outline: none;
+}
+
+.login_input-border {
+  height: 1px;
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: #cfcfcf;
+  transition: 0.3s ease-in-out;
+}
+
+.login_input-border::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 16px;
+  background: linear-gradient(120deg, #e75590, #00c2cb);
+  transition: 0.3s ease-in-out;
+}
