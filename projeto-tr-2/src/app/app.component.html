@@ -1,35 +1,40 @@
-<p>
-  <button
-    type="button"
-    class="btn btn-outline-primary"
-    (click)="collapse.toggle()"
-    [attr.aria-expanded]="!isCollapsed"
-    aria-controls="collapseExample"
-  >
-    Toggle with Function
-  </button>
-  <button
-    type="button"
-    class="btn btn-outline-primary ms-2"
-    (click)="isCollapsed = !isCollapsed"
-    [attr.aria-expanded]="!isCollapsed"
-    aria-controls="collapseExample"
-  >
-    Toggle with Two Way Binding
-  </button>
-</p>
-<div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
-  <div class="card">
-    <div class="card-body">
-      You can collapse this card by clicking one Toggle button
+<div class="container">
+  <div class="primeirocomponente">
+    <p>
+      <button
+        type="button"
+        class="btn btn-outline-primary"
+        (click)="collapse.toggle()"
+        [attr.aria-expanded]="!isCollapsed"
+        aria-controls="collapseExample"
+      >
+        Toggle with Function
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-primary ms-2"
+        (click)="isCollapsed = !isCollapsed"
+        [attr.aria-expanded]="!isCollapsed"
+        aria-controls="collapseExample"
+      >
+        Toggle with Two Way Binding
+      </button>
+    </p>
+
+    <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+      <div class="card">
+        <div class="card-body">
+          You can collapse this card by clicking one Toggle button
+        </div>
+      </div>
     </div>
   </div>
+
+  <p-calendar [(ngModel)]="date"></p-calendar>
+
+  <p-dropdown
+    [options]="cities"
+    [(ngModel)]="selectedCity"
+    optionLabel="name"
+  ></p-dropdown>
 </div>
-
-<p-calendar [(ngModel)]="date"></p-calendar>
-
-<p-dropdown
-  [options]="cities"
-  [(ngModel)]="selectedCity"
-  optionLabel="name"
-></p-dropdown>
