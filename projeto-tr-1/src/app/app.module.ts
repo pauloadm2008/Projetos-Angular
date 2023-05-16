@@ -8,6 +8,11 @@ import { ButtonModule } from 'primeng/button';
 import { MessagesModule } from 'primeng/messages';
 import { MessageModule } from 'primeng/message';
 import { TagModule } from 'primeng/tag';
+import { CarouselComponent } from './componentes/carousel/carousel.component';
+import { AccordionComponent } from './componentes/accordion/accordion.component';
+import { AutocompleteComponent } from './componentes/autocomplete/autocomplete.component';
+import { AutoCompleteModule } from 'primeng/autocomplete';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   imports: [
     BrowserModule,
@@ -18,8 +23,15 @@ import { TagModule } from 'primeng/tag';
     AccordionModule,
     MessagesModule,
     MessageModule,
+    AutoCompleteModule,
+    FormsModule,
   ],
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    CarouselComponent,
+    AccordionComponent,
+    AutocompleteComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
