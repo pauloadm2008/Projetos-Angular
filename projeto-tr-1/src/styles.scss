@@ -1,15 +1,16 @@
 body {
-  background-color: black;
-  background-image: url(../src/image.jpg/logo-tr-nova.jpg);
+  background: url(../src/image.jpg/logo-tr-nova.jpg);
 }
 
 .container {
   width: 50%;
   height: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #fad203;
   border-radius: 5%;
-  padding-top: 5vh;
+  backdrop-filter: blur(10px);
+  background-color: transparent;
 }
