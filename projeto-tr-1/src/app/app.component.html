@@ -1,75 +1,35 @@
 <div class="container">
   <h2>TR Soluções</h2>
-  <h5>Funções do Estágio</h5>
-  <div class="accordion">
-  <p-accordion>
-    <p-accordionTab header="Adobe PS" [selected]="true">
-      <p>
-        Criar imagens para postagens de artigos do setor de energia.
-      </p>
-    </p-accordionTab>
-    <p-accordionTab header="HTML E CSS">
-      <p>
-        Angular PrimeNG is a framework used with angular to create components
-        with great styling and this framework is very easy to use and is used to
-        make responsive websites.
-      </p>
-    </p-accordionTab>
-    <p-accordionTab header="Angular PrimeNG">
-      <p>
-        Angular PrimeNG is a framework used with angular to create components
-        with great styling and this framework is very easy to use and is used to
-        make responsive websites.
-      </p>
-    </p-accordionTab>
-  </p-accordion>
+  <h5>Biblioteca Primeng</h5>
+  <p>Autocomplete</p>
+  <app-autocomplete></app-autocomplete>
+  <br>
+  <p>Calendar</p>
+  <app-calendar></app-calendar>
+  <br>
+  <p>Cascadeselect</p>
+  <app-cascadeselect></app-cascadeselect>
+  <br>
+  <p>Checkbox</p>
+  <app-checkbox></app-checkbox>
+  <br>
+  <p>Chips</p>
+  <app-chips></app-chips>
+  <br>
+  <p>Colorpicker</p>
+    <app-colorpicker></app-colorpicker>
+  <br>
+  <p>Dropdown</p>
+<app-dropdown></app-dropdown>
+  <br>
+  <p>Editor</p>
+  <app-editor></app-editor>
+  <br>
+  <p>InputGoup</p>
+  <app-inputgroup></app-inputgroup>
+  <br>
+  <p>InputMask</p>
+  <app-inputmask></app-inputmask>
 </div>
-  
-  <h5>PrimeNG Messages Component</h5>
-  <div class="p-button">
-  <p-messages [(value)]="msgs"></p-messages>
-  <button type="button" (click)="hide()">Hide</button>
-</div>
-  <p-carousel
-    [value]="products"
-    [numVisible]="3"
-    [numScroll]="3"
-    [circular]="false"
-  >
-    <ng-template let-product pTemplate="item">
-      <div
-        class="border-1 surface-border border-round m-2 text-center py-5 px-3"
-      >
-        <div class="mb-3">
-          <img
-            src="https://primefaces.org/cdn/primeng/images/demo/product/{{
-              product.image
-            }}"
-            [alt]="product.name"
-            class="w-6 shadow-2"
-          />
-        </div>
-        <div>
-          <h4 class="mb-1">{{ product.name }}</h4>
-          <h6 class="mt-0 mb-3">{{ "$" + product.price }}</h6>
-          <p-tag
-            [value]="product.inventoryStatus"
-            [severity]="getSeverity()"
-          ></p-tag>
-          <div class="car-buttons mt-5">
-            <p-button
-              type="button"
-              styleClass="p-button p-button-rounded mr-2"
-              icon="pi pi-search"
-            ></p-button>
-            <p-button
-              type="button"
-              styleClass="p-button-success p-button-rounded mr-2"
-              icon="pi pi-star-fill"
-            ></p-button>
-          </div>
-        </div>
-      </div>
-    </ng-template>
-  </p-carousel>
-</div>
+
+

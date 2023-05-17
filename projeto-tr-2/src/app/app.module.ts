@@ -6,6 +6,8 @@ import { CalendarModule } from 'primeng/calendar';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DropdownModule } from 'primeng/dropdown';
+import { AutoCompleteModule } from 'primeng/autocomplete';
+
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +19,7 @@ import { DropdownModule } from 'primeng/dropdown';
     FormsModule,
     NgbModule,
     BrowserAnimationsModule,
+    AutoCompleteModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
