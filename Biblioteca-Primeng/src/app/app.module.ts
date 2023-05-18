@@ -8,7 +8,6 @@ import { ButtonModule } from 'primeng/button';
 import { MessagesModule } from 'primeng/messages';
 import { MessageModule } from 'primeng/message';
 import { TagModule } from 'primeng/tag';
-
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { AutoCompleteModule } from 'primeng/autocomplete';
 import { FormsModule } from '@angular/forms';
@@ -31,6 +30,23 @@ import { InputTextModule } from 'primeng/inputtext';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { InputmaskComponent } from './inputmask/inputmask.component';
 import { InputMaskModule } from 'primeng/inputmask';
+import { InputswitchComponent } from './inputswitch/inputswitch.component';
+import { InputSwitchModule } from 'primeng/inputswitch';
+import { InputtextComponent } from './inputtext/inputtext.component';
+import { InputtextareaComponent } from './inputtextarea/inputtextarea.component';
+import { InputnumberComponent } from './inputnumber/inputnumber.component';
+import { InputNumberModule } from 'primeng/inputnumber';
+import { KnobComponent } from './knob/knob.component';
+import { KnobModule } from 'primeng/knob';
+import { KeyfilterComponent } from './keyfilter/keyfilter.component';
+import { KeyFilterModule } from 'primeng/keyfilter';
+import { ListboxComponent } from './listbox/listbox.component';
+import { ListboxModule } from 'primeng/listbox';
+import { MultselectComponent } from './multiselect/multselect.component';
+import { MultiSelectModule } from 'primeng/multiselect';
+import { PasswordComponent } from './password/password.component';
+import { PasswordModule } from 'primeng/password';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -53,6 +69,14 @@ import { InputMaskModule } from 'primeng/inputmask';
     InputTextModule,
     RadioButtonModule,
     InputMaskModule,
+    InputSwitchModule,
+    InputTextModule,
+    InputNumberModule,
+    KnobModule,
+    KeyFilterModule,
+    ListboxModule,
+    MultiSelectModule,
+    PasswordModule,
   ],
   declarations: [
     AppComponent,
@@ -67,6 +91,15 @@ import { InputMaskModule } from 'primeng/inputmask';
           EditorComponent,
           InputgroupComponent,
           InputmaskComponent,
+          InputswitchComponent,
+          InputtextComponent,
+          InputtextareaComponent,
+          InputnumberComponent,
+          KnobComponent,
+          KeyfilterComponent,
+          ListboxComponent,
+          MultselectComponent,
+          PasswordComponent,
   ],
   bootstrap: [AppComponent],
 })
