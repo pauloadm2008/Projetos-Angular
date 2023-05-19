@@ -46,6 +46,20 @@ import { MultselectComponent } from './multiselect/multselect.component';
 import { MultiSelectModule } from 'primeng/multiselect';
 import { PasswordComponent } from './password/password.component';
 import { PasswordModule } from 'primeng/password';
+import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
+import { RatingComponent } from './rating/rating.component';
+import { RatingModule } from 'primeng/rating';
+import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
+import { SelectButtonModule } from 'primeng/selectbutton';
+import { SliderComponent } from './slider/slider.component';
+import { SliderModule } from 'primeng/slider';
+import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeselectComponent } from './treeselect/treeselect.component';
+import { TristatecheckboxComponent } from './tristatecheckbox/tristatecheckbox.component';
+import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
+import { TogglebuttonComponent } from './togglebutton/togglebutton.component';
+import { ToggleButtonModule } from 'primeng/togglebutton';
+
 
 @NgModule({
   imports: [
@@ -77,6 +91,12 @@ import { PasswordModule } from 'primeng/password';
     ListboxModule,
     MultiSelectModule,
     PasswordModule,
+    RatingModule,
+    SelectButtonModule,
+    SliderModule,
+    TreeSelectModule,
+    TriStateCheckboxModule,
+    ToggleButtonModule,
   ],
   declarations: [
     AppComponent,
@@ -100,6 +120,13 @@ import { PasswordModule } from 'primeng/password';
           ListboxComponent,
           MultselectComponent,
           PasswordComponent,
+          RadiobuttonComponent,
+          RatingComponent,
+          SelectbuttonComponent,
+          SliderComponent,
+          TreeselectComponent,
+          TristatecheckboxComponent,
+          TogglebuttonComponent,
   ],
   bootstrap: [AppComponent],
 })
