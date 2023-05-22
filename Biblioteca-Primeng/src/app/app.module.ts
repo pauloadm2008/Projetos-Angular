@@ -59,6 +59,18 @@ import { TristatecheckboxComponent } from './tristatecheckbox/tristatecheckbox.c
 import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
 import { TogglebuttonComponent } from './togglebutton/togglebutton.component';
 import { ToggleButtonModule } from 'primeng/togglebutton';
+import { ButtonComponent } from './Button/button.component';
+
+import { SpeedDialModule } from 'primeng/speeddial';
+
+import { TableModule } from 'primeng/table';
+import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
+import { DataviewComponent } from './dataview/dataview.component';
+import { DataViewModule } from 'primeng/dataview';
+
+import { ScrollerModule } from 'primeng/scroller';
+
+
 
 
 @NgModule({
@@ -97,6 +109,13 @@ import { ToggleButtonModule } from 'primeng/togglebutton';
     TreeSelectModule,
     TriStateCheckboxModule,
     ToggleButtonModule,
+    SpeedDialModule,
+    TableModule,
+    DataViewModule, 
+    ScrollerModule,
+    
+    
+    
   ],
   declarations: [
     AppComponent,
@@ -127,6 +146,11 @@ import { ToggleButtonModule } from 'primeng/togglebutton';
           TreeselectComponent,
           TristatecheckboxComponent,
           TogglebuttonComponent,
+          ButtonComponent,
+          SplitbuttonComponent,
+          DataviewComponent,
+        
+          
   ],
   bootstrap: [AppComponent],
 })
