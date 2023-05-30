@@ -17,7 +17,7 @@ h5 {
   width: 100%;
   margin-top: 10px;
   padding-top: 30px;
-  height: 100%;
+  height: 350px;
   justify-content: center;
   color: #ffffff;
   border-radius: 5px;
@@ -36,6 +36,7 @@ h5 {
 }
 
 p {
+  
   font-size: 25px;
   margin-bottom: 20px;
 }
@@ -118,12 +119,45 @@ h3 {
   margin-bottom: 30px;
 }
 
+.align-items-center{
+  align-items: flex-start;
+}
 
-  
-  :host ::ng-deep .p-fluid .p-chips{
+ 
+ 
+@media (max-width: 400px){
+
+
+:host ::ng-deep .p-fluid .p-chips{
     width: 20%;
   }
 
-  :host ::ng-deep .p-editor-container{
+:host ::ng-deep .p-editor-container{
     width: 10%;
   }
+
+
+
+:host ::ng-deep  .ng-valid{
+padding: 1%;
+}
+
+:host ::ng-deep .p-autocomplete  {
+ margin-bottom: 100px;
+}
+
+:host ::ng-deep .p-calendar  {
+  margin-bottom: 0.5%;
+ }
+ 
+:host ::ng-deep .p-dropdown  {
+  margin-bottom: 50px;
+ }
+
+:host ::ng-deep  .align-items-center{
+  align-items: flex-start;
+ }
+
+ 
+
+}
