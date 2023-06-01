@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Message } from 'primeng/api';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

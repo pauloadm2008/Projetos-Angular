@@ -69,6 +69,9 @@ import { DataviewComponent } from './dataview/dataview.component';
 import { DataViewModule } from 'primeng/dataview';
 
 import { ScrollerModule } from 'primeng/scroller';
+import { MenubarModule } from 'primeng/menubar';
+
+import { MenuModule } from 'primeng/menu';
 
 
 
@@ -113,43 +116,43 @@ import { ScrollerModule } from 'primeng/scroller';
     TableModule,
     DataViewModule, 
     ScrollerModule,
-    
+    MenubarModule,
+    MenuModule,
     
     
   ],
   declarations: [
-    AppComponent,
-    
+    AppComponent,    
     AutocompleteComponent,
-          CalendarComponent,
-          CascadeselectComponent,
-          CheckboxComponent,
-          ChipsComponent,
-          ColorpickerComponent,
-          DropdownComponent,
-          EditorComponent,
-          InputgroupComponent,
-          InputmaskComponent,
-          InputswitchComponent,
-          InputtextComponent,
-          InputtextareaComponent,
-          InputnumberComponent,
-          KnobComponent,
-          KeyfilterComponent,
-          ListboxComponent,
-          MultselectComponent,
-          PasswordComponent,
-          RadiobuttonComponent,
-          RatingComponent,
-          SelectbuttonComponent,
-          SliderComponent,
-          TreeselectComponent,
-          TristatecheckboxComponent,
-          TogglebuttonComponent,
-          ButtonComponent,
-          SplitbuttonComponent,
-          DataviewComponent,
-        
+    CalendarComponent,
+    CascadeselectComponent,
+    CheckboxComponent,
+    ChipsComponent,
+    ColorpickerComponent,
+    DropdownComponent,
+    EditorComponent,
+    InputgroupComponent,
+    InputmaskComponent,
+    InputswitchComponent,
+    InputtextComponent,
+    InputtextareaComponent,
+    InputnumberComponent,
+    KnobComponent,
+    KeyfilterComponent,
+    ListboxComponent,
+    MultselectComponent,
+    PasswordComponent,
+    RadiobuttonComponent,
+    RatingComponent,
+    SelectbuttonComponent,
+    SliderComponent,
+    TreeselectComponent,
+    TristatecheckboxComponent,
+    TogglebuttonComponent,
+    ButtonComponent,
+    SplitbuttonComponent,
+    DataviewComponent,
+    
           
   ],
   bootstrap: [AppComponent],
