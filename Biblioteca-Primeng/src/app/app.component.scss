@@ -161,3 +161,16 @@ padding: 1%;
  
 
 }
+
+:host ::ng-deep  .bg-dark{
+  --bs-bg-opacity: ;
+    
+
+}
+
+:host ::ng-deep .container-fluid{
+  padding: 2%;
+  
+  border-radius: 10px;
+  background: #18171702;
+}
